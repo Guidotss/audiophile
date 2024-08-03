@@ -13,7 +13,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-      colos: { 
+      colors: { 
         "audio-orange": "#D87D4A",
         "audio-carbon-black": "#101010",
         "audio-grey": "#F1F1F1",
