@@ -23,12 +23,12 @@ const navbarItems = [
 ];
 export const Navbar = () => {
   return (
-    <header className="bg-transparent absolute h-20 w-full p-16">
+    <header className="bg-transparent absolute h-20 w-full p-16 z-10">
       <nav className="flex justify-between items-center">
         <Image src={logo.src} alt="Vercel Logo" width={150} height={100} />
         <ul className="flex items-center gap-x-10">
           {navbarItems.map((item) => (
-            <li key={item.title} className="text-white">
+            <li key={item.title} className="text-white hover:text-audio-orange transition-colors duration-300 ease-in-out">
               <Link href={item.url}>{item.title}</Link>
             </li>
           ))}
