@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeadPhoneDesktop from "/public/assets/home/desktop/image-hero.jpg";
 import "animate.css";
+import { ShopProductsList } from "@/components/products";
 
 export default function Home() {
   return (
@@ -29,9 +30,7 @@ export default function Home() {
         />
       </section>
       <section className="h-full bg-audio-white">
-        <div>
-          <span>SHOP</span>
-        </div>
+        <ShopProductsList />
       </section>
     </main>
   );
