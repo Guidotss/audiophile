@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={manrope.className}>
+      <body className={`${manrope.className} h-screen w-full`}>
         <Navbar/>
         {children}
       </body>
