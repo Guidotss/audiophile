@@ -1,26 +1,9 @@
+import Link from "next/link";
 import Image from "next/image";
 import logo from "/public/assets/shared/desktop/logo.svg";
 import cart from "/public/assets/shared/desktop/icon-cart.svg";
-import Link from "next/link";
+import { navbarItems } from "@/constants"
 
-const navbarItems = [
-  {
-    title: "HOME",
-    url: "/",
-  },
-  {
-    title: "HEADPHONES",
-    url: "/headphones",
-  },
-  {
-    title: "SPEAKERS",
-    url: "/speakers",
-  },
-  {
-    title: "EARPHONES",
-    url: "/earphones",
-  },
-];
 export const Navbar = () => {
   return (
     <header className="bg-transparent absolute h-20 w-full p-16 z-10">
