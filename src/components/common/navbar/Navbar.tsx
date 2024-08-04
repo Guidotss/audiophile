@@ -6,7 +6,7 @@ import { navbarItems } from "@/constants";
 
 export const Navbar = () => {
   return (
-    <header className="bg-transparent sticky w-full p-16 z-10">
+    <header className="bg-transparent absolute w-full p-16 z-10">
       <nav className="flex justify-between items-center">
         <Image src={logo.src} alt="Vercel Logo" width={150} height={100} />
         <ul className="flex items-center gap-x-10">
